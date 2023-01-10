@@ -183,8 +183,6 @@
 }
 .proyect:hover{
     border: 1px green solid;
-    width: 100%;
-    height: 300px;
     opacity: 50%;
 }
 
