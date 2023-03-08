@@ -1,0 +1,22 @@
+/* #region proyectos */
+#proyectos{
+    background-color: #191A19;
+}
+.proyects-section{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    flex-wrap: wrap;
+}
+
+.proyect{
+    border: 1px yellow solid;
+    width: auto;
+    height: auto;
+}
+.proyect:hover{
+    border: 1px green solid;
+    opacity: 50%;
+}
+
+/* #endregion */

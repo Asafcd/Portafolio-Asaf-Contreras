@@ -1,0 +1,39 @@
+/* #region about */
+#about{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #191A19;
+    color: #D8E9A8;
+}
+
+.my-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.my-info :has(li){
+    color: #191A19;
+}
+
+.card-info{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 2%;
+    width: 25%;
+    height: 225px;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    border: #D8E9A8 3px solid;
+    background-color: #D8E9A8;
+}
+.card-info ul{
+    text-align: start;
+}
+
+/* #endregion */

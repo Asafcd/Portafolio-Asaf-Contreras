@@ -1,0 +1,43 @@
+/* #region skills */
+.info{
+    background-color: #191A19;
+    display: flex; 
+    flex-direction: column;
+    color: #D8E9A8;
+    padding: 2rem;
+}
+.info-header{
+    text-align: center;
+}
+.info-section{
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.info-section-child{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.info-section-child ul{
+    margin: 1rem;
+    display: inline-block;
+    white-space: nowrap;
+}
+.child{
+    padding: 1rem;
+    background-color: #05142b;
+    margin-bottom: 1rem;
+}
+.child:hover{
+    padding: 1rem;
+    border: 1px #4E9F3D solid;
+}
+.responsive{
+    width: 100%;
+    max-width: 600;
+    height: auto;
+}
+
+/* #endregion */
